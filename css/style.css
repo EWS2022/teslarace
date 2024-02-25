@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: black;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    font-family: monospace;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 120px;
+    transition: 0.4s;
+}
+
+button:hover{
+    color: black;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
